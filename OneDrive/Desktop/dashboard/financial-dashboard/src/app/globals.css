@@ -1,0 +1,12 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Custom transitions or overrides */
+@layer base {
+    body{
+  @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white;
+  transition: background-color 0.3s ease;
+}
+}
